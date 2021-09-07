@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:background="@drawable/static_rv_bg"
+    android:elevation="2dp"
+    android:id="@+id/linearlayout"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/rv">
+
+        <TextView
+            android:id="@+id/lab"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="Software lab 301"
+            android:textColor="#506BA8"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="146dp"
+            android:layout_height="88dp"
+            android:layout_gravity="right|top"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="48dp"
+            app:layout_constraintStart_toEndOf="@+id/incharge"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/softwarelab_1" />
+
+        <TextView
+            android:id="@+id/incharge"
+            android:layout_width="116dp"
+            android:layout_height="19dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Incharge:Prof.ABC"
+            android:textColor="#000"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lab" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="141dp"
+            android:layout_height="24dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Timing: 10am-12pm"
+            android:textColor="#000"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lab" />
+
+        <TextView
+            android:id="@+id/lunchtime"
+            android:layout_width="123dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Lunch Timing:12pm-1pm"
+            android:textColor="#F43053"
+            android:textSize="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/incharge" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</LinearLayout>

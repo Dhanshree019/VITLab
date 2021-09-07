@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backsign">
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="254dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="472dp"
+        android:layout_marginEnd="66dp"
+        android:background="@drawable/bgsigntext"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="    Username "
+        android:textColor="@color/black"
+        android:textColorHint="#6480BF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="254dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="564dp"
+        android:layout_marginEnd="66dp"
+        android:textColor="@color/black"
+        android:background="@drawable/bgsigntext"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:hint="    Password"
+        android:textColorHint="#6480BF"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="131dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="159dp"
+        android:background="@drawable/bgsignbutton"
+
+        android:text="Sign In"
+        android:textColor="#6480BF"
+        app:backgroundTint="#FFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass" />
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="74dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="57dp"
+        android:text="reg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

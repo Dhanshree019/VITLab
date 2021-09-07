@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "220036426822",
+    "firebase_url": "https://vitlab-5ef33-default-rtdb.firebaseio.com",
+    "project_id": "vitlab-5ef33",
+    "storage_bucket": "vitlab-5ef33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220036426822:android:ad3f6c94103c5ffda36e47",
+        "android_client_info": {
+          "package_name": "com.example.vitlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220036426822-25aqvtv059a746hdaqtbr8ahrunr8plm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM26mr512XOUFYM6gkxQ8BL0GVtF6oWm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220036426822-25aqvtv059a746hdaqtbr8ahrunr8plm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
